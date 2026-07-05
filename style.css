@@ -229,7 +229,39 @@ footer {
 }
 
 .cta {
-  margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    margin-top: 32px;
+}
+
+.support-link {
+    font-size: 0.95rem;
+    color: var(--secondary-text);
+    text-decoration: none;
+    transition: color .2s ease;
+}
+
+.support-link:hover {
+    color: var(--text);
+}
+
+.app-links {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: .9rem;
+}
+
+.app-links a {
+    color: var(--secondary-text);
+    text-decoration: none;
+}
+
+.app-links a:hover {
+    color: var(--text);
 }
 
 .app-store {
